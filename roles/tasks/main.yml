@@ -1,0 +1,10 @@
+---
+  - name: Run the module my_own_module
+    my_own_module:
+      name: "HelloWorld.txt"
+      path: "/tmp/module_test"
+      content: "Netology students\n"
+    register: testout
+  - name: print test output
+    debug:
+      msg: '{{ testout }}'

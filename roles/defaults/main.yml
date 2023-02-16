@@ -1,0 +1,5 @@
+---
+# defaults file for my_own_role
+  p_name: "Hello"
+  p_path: "/tmp/my_own_files/"
+  p_content: "Content for my module"
